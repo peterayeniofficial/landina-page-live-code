@@ -150,3 +150,32 @@ section button {
   margin-bottom: 1.5rem;
   margin-left: 0.9rem;
 }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+footer img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.support {
+  display: flex;
+  align-items: center;
+}
+
+footer p {
+  font-size: 0.8rem;
+  color: #6a6a6a;
+  margin-left: 0.5rem;
+}
+
+.support-action {
+  color: #0e0e0e;
+  font-weight: bold;
+}
